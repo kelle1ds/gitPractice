@@ -29,3 +29,16 @@ class BranchOne {
     }
 
 }
+
+class square {
+    private float num;
+
+    public square() {
+        this.num = 0.0f;
+    }
+
+    public float setNum(float n) {
+        num = n*n;
+        return this.num;
+    }
+}
