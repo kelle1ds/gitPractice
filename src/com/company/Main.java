@@ -13,9 +13,14 @@ class BranchOne {
 
     private int num = 111;
 
+    public BranchOne(){
+        this.num = 0;
+    }
+
     public int getNum(){
         return this.num;
     }
+
     public void setNum(int n){
         this.num = n;
     }
