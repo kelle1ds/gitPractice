@@ -13,6 +13,9 @@ class BranchOne {
 
     private int num = 111;
 
+    public int getNum(){
+        return this.num;
+    }
     public void setNum(int n){
         this.num = n;
     }
