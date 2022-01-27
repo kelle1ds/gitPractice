@@ -6,12 +6,15 @@ public class Main {
 	// write your code here
         System.out.println("Hello CMU");
         System.out.println("Hello World");
+        BranchOne branch = new BranchOne();
+        branch.setNum(12);
+        System.out.println(branch.getNum());
     }
 }
 
 class BranchOne {
 
-    private int num = 111;
+    private int num;
 
     public BranchOne(){
         this.num = 0;
